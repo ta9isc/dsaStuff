@@ -8,14 +8,14 @@ public class RichestCustomer{
                 mx = candies[i];
             }
         }
-        System.out.println("max" + mx);
+       // System.out.println("max " + mx);
         ArrayList<Boolean>l = new ArrayList<>();
 
         for(int i = 0; i < candies.length; i++){
             if (candies[i] + extraCandies >= mx){
                 l.add(true);
 
-                System.out.println("candies " + candies[i] + extraCandies);
+             //   System.out.println("candies " + candies[i] + extraCandies);
             }
             else if(candies[i] + extraCandies < mx){
                 l.add(false);
